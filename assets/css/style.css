@@ -34,6 +34,16 @@ body {
     position: relative;
 }
 
+#navigation-inner {
+    background-color: rgb(25, 25, 25);
+    height: 80%;
+    width: 98%;
+    border-radius: 20px;
+    position: absolute; 
+    bottom: 2px;
+    left: 1%;
+}
+
 .nav-btn {
     width: 20%;
     height: 100%;
@@ -201,6 +211,14 @@ body {
     height: 100%;
     width: 30%;
     float: right;
+}
+
+#progress-inner {
+    background-color: rgb(25, 25, 25);
+    border-radius: 20px;
+    height: 95%; 
+    width: 90%;
+    margin: auto;
 }
 
 #highscore {
