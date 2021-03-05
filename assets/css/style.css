@@ -27,21 +27,64 @@ body {
     background-color: red;
     height: 20%;
     width: 100%;
+    position: relative;
 }
 
 .nav-btn {
     width: 20%;
-    height: 50%;
+    height: 100%;
     margin-left: 10px;
+    float: left;
+    position: relative;
+}
+
+#start-btn {
+    width: 100%;
+    height: 50%;
     border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#instructions-btn {
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#difficulty-btn {
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.settings {
+    width: 10%;
+    height: 100%;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    
 }
 
 #settings-btn {
-    width: 10%;
+    width: 100%;
     height: 50%;
-    float: right;
-    margin-right: 10px;
     border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 /*-------------------------------------------Section 2-Game*/
@@ -104,10 +147,15 @@ body {
     height: 40%;
     width: 90%;
     margin: auto;
+    position: relative;
 }
 
 #hint-btn {
     width: 80%;
     height: 60%;
     border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
