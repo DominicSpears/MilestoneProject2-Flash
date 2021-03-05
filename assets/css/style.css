@@ -6,20 +6,20 @@
 }
 
 body {
-    background-color: white;
+    background-color: black;
     height: 100vh;
     position: relative;
 }
 
 #memory-game {
-    background-color: black;
     height: 80%;
     width: 70%;
 /* Credit: Code taken from https://css-tricks.com/centering-css-complete-guide/, modified for use */    
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    box-shadow: 100px 10px 100px 10px #888888;
 }
 
 /*-------------------------------------------Section 1-Navigation Buttons*/
@@ -113,6 +113,49 @@ body {
     width: 16.66%;
     float: left;
     border: 2px solid blue;
+    position: relative;
+}
+
+#capital-f {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#capital-l {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#capital-a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#capital-s {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#capital-h {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#exclamation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 #grid {
