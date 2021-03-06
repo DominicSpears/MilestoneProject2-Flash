@@ -1,19 +1,4 @@
-document.getElementById('start-btn').onclick = function changeContent() {
-
-   document.getElementById('demo').textContent = "Help me";
-   document.getElementById('demo').style = "Color: red";
-
-}
-
-
-
-
-
-
-
-
-
-
+document.body.style.background = "#f3f3f3"
 
 
 
