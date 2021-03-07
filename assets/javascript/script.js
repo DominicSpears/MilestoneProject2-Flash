@@ -1,21 +1,11 @@
-//function myFunction() {
-//  document.body.style.backgroundColor = "red";
-//}
-
-function myFunction() {
-  var list = document.getElementsByClassName("grid-container")[0];
-  list.getElementsByClassName("grid-item")[0].style.backgroundColor = "lightblue";
-}
-
-/*var x = document.getElementById("grid-container");
-var y = x.getElementsByClassName("grid-item");
-var i;
-for (i = 0; i < y.length; i++) {
-  y[i].style.backgroundColor = "red";
-}*/
-
-
-
+/*https://www.w3schools.com/jsref/met_document_queryselectorall.asp*/
+function clickStart() {
+    var x = document.querySelectorAll(".grid-item");
+    var i;
+    for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "lightblue";
+    }
+};
 
 /*const cards = document.querySelectorAll(".grid-item");
 
