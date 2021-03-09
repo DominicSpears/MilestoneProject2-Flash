@@ -5,8 +5,23 @@ function clickStart() {
     for (i = 0; i < x.length; i++) {
     x[i].style.backgroundColor = "lightblue";
     }
+    flash();
 };
 
+setTimeout(function flash() {
+    let backgroundColorBlue = true;
+    if (backgroundColorBlue) {
+        var x = document.querySelectorAll(".grid-item");
+        var i;
+        for (i = 0; i < x.length; i++) {
+        x[i].style.backgroundColor = "black";
+        }   
+    }
+}, 4000);
+
+
+
+    
 /*const cards = document.querySelectorAll(".grid-item");
 
 
